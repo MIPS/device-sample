@@ -273,26 +273,6 @@
       type="default"
   />
 
-  <apn carrier="Orange Internet"
-      apn="orange.fr"
-      user="orange"
-      password="orange"
-      mcc="208"
-      mnc="01"
-      authtype="0"
-      type="dun"
-  />
-
-  <apn carrier="Orange Internet Entreprise"
-      apn="internet-entreprise"
-      user="orange"
-      password="orange"
-      mcc="208"
-      mnc="01"
-      authtype="0"
-      type="dun"
-  />
-
   <apn carrier="SFR webphone"
       mcc="208"
       mnc="10"
@@ -540,6 +520,21 @@
       type="mms"
   />
 
+  <apn carrier="Free"
+      mcc="208"
+      mnc="15"
+      apn="free"
+      type="default,supl"
+  />
+
+  <apn carrier="Free MMS"
+      mcc="208"
+      mnc="15"
+      mmsc="http://mms.free.fr"
+      apn="mmsfree"
+      type="mms"
+  />
+
   <apn carrier="Internet movil"
       mcc="214"
       mnc="01"
@@ -565,22 +560,10 @@
       mcc="214"
       mnc="03"
       apn="orangeworld"
-      proxy="10.132.61.10"
-      port="8080"
       user="orange"
       password="orange"
       authtype="1"
       type="default"
-  />
-
-  <apn carrier="Orange Internet PC"
-      mcc="214"
-      mnc="03"
-      apn="internet"
-      user="orange"
-      password="orange"
-      authtype="0"
-      type="dun"
   />
 
   <apn carrier="Orange MMS"
@@ -602,8 +585,6 @@
       mcc="214"
       mnc="04"
       apn="internet"
-      proxy="10.8.0.36"
-      port="8080"
       type="default,supl"
   />
 
@@ -720,15 +701,6 @@
       type="default,supl"
   />
 
-  <apn carrier="Conexión compartida"
-      mcc="214"
-      mnc="07"
-      apn="movistar.es"
-      user="MOVISTAR"
-      password="MOVISTAR"
-      type="dun"
-  />
-
   <apn carrier="Euskaltel MMS"
       mcc="214"
       mnc="08"
@@ -831,12 +803,19 @@
       type="default,supl"
   />
 
-  <apn carrier="HT Eronet"
+  <apn carrier="HT Eronet WAP"
       mcc="218"
       mnc="03"
       apn="wap.eronet.ba"
       proxy="10.12.3.10"
       port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="HT Eronet GPRS"
+      mcc="218"
+      mnc="03"
+      apn="gprs.eronet.ba"
       type="default,supl"
   />
 
@@ -1090,13 +1069,6 @@
       mnc="10"
       apn="mobile.vodafone.it"
       type="default,supl"
-  />
-
-  <apn carrier="Tethering Internet"
-      mcc="222"
-      mnc="10"
-      apn="web.omnitel.it"
-      type="dun"
   />
 
   <apn carrier="WIND WEB"
@@ -1896,14 +1868,6 @@
       type="mms"
   />
 
-  <apn carrier="Consumer Broadband"
-      apn="consumerbroadband"
-      mcc="234"
-      mnc="33"
-      authtype="0"
-      type="dun"
-  />
-
   <apn carrier="Orange internet"
       mcc="234"
       mnc="34"
@@ -2021,60 +1985,11 @@
       type="default,supl"
   />
 
-  <apn carrier="TDC Song WAP"
-      mcc="238"
-      mnc="01"
-      apn="internet.no"
-      proxy="194.182.251.15"
-      port="8080"
-      type="default,supl"
-  />
-
-
   <apn carrier="TDC MMS"
       mcc="238"
       mnc="01"
       apn="mms"
       mmsc="http://mmsc.tdc.dk:8002"
-      mmsproxy="194.182.251.15"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="TDC Song MMS"
-      mcc="238"
-      mnc="01"
-      apn="mms.no"
-      mmsc="http://mms.tdcmobil.no:8002"
-      mmsproxy="194.182.251.15"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="TDC WAP"
-      mcc="238"
-      mnc="01"
-      apn="wap"
-      proxy="194.182.251.15"
-      port="8080"
-      type="default,supl"
-  />
-
-
-  <apn carrier="Telmore Wap"
-      mcc="238"
-      mnc="01"
-      apn="wap"
-      proxy="194.182.251.15"
-      port="8080"
-      type="default,supl"
-  />
-
-  <apn carrier="Telmore MMS"
-      mcc="238"
-      mnc="01"
-      apn="mms"
-      mmsc="htp://192.168.241.114:8002"
       mmsproxy="194.182.251.15"
       mmsport="8080"
       type="mms"
@@ -2105,23 +2020,6 @@
       mmsproxy="mmsproxy.3.dk"
       mmsport="8799"
       type="default,supl,mms"
-  />
-
-  <apn carrier="MMS"
-      mcc="238"
-      mnc="20"
-      apn="mmssp"
-      mmsc="http://mms.telia.dk"
-      mmsproxy="193.209.134.131"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Internet"
-      mcc="238"
-      mnc="20"
-      apn="websp"
-      type="default,supl"
   />
 
   <apn carrier="Telia Internet"
@@ -2212,17 +2110,10 @@
       apn="services.telenor.se"
       proxy="172.30.253.241"
       port="8799"
-      type="default,supl"
-  />
-
-  <apn carrier="Telenor MMS"
-      mcc="240"
-      mnc="04"
-      apn="services.telenor.se"
       mmsc="http://mms"
       mmsproxy="172.30.253.241"
       mmsport="8799"
-      type="mms"
+      type="default,supl,mms"
   />
 
   <apn carrier="Telenor MMS"
@@ -2242,16 +2133,6 @@
       proxy="173.30.253.241"
       port="8799"
       type="default,supl"
-  />
-
-  <apn carrier="Tele2"
-      mcc="240"
-      mnc="07"
-      apn="internet.tele2.no"
-      mmsc="http://mmsc.tele2.no"
-      mmsproxy="193.12.40.14"
-      mmsport="8080"
-      type="default,supl,mms"
   />
 
   <apn carrier="Tele2"
@@ -2369,17 +2250,10 @@
       mcc="242"
       mnc="04"
       apn="internet.tele2.no"
-      type="default,supl"
-  />
-
-  <apn carrier="Tele2 MMS"
-      mcc="242"
-      mnc="04"
-      apn="internet.tele2.no "
       mmsc="http://mmsc.tele2.no"
       mmsproxy="193.12.40.14"
       mmsport="8080"
-      type="mms"
+      type="default,supl,mms"
   />
 
   <apn carrier="NwN Internet"
@@ -2469,6 +2343,23 @@
       mmsc="http://mms.song.fi"
       mmsproxy="213.161.41.58"
       mmsport="80"
+      type="mms"
+  />
+
+  <apn carrier="DNA Internet"
+      mcc="244"
+      mnc="12"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="DNA MMS"
+      mcc="244"
+      mnc="12"
+      apn="mms"
+      mmsc="http://mmsc.dnafinland.fi/"
+      mmsproxy="10.1.1.2"
+      mmsport="8080"
       type="mms"
   />
 
@@ -3663,21 +3554,16 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="MMS"
+  <apn carrier="Koodo"
       mcc="302"
-      mnc="270"
-      apn="mms.mobi.eastlink.ca"
-      mmsc="http://mmss.mobi.eastlink.ca"
-      mmsproxy="10.232.12.49"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Internet"
-      mcc="302"
-      mnc="270"
-      apn="wisp.mobi.eastlink.ca"
-      type="default,supl"
+      mnc="220"
+      apn="sp.koodo.com"
+      proxy="74.49.0.18"
+      port="80"
+      mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
+      mmsproxy="74.49.0.18"
+      mmsport="80"
+      type="default,supl,mms"
   />
 
   <apn carrier="MOWAP"
@@ -3699,6 +3585,22 @@
       type="mms"
   />
 
+  <apn carrier="MMS"
+      mcc="302"
+      mnc="270"
+      apn="mms.mobi.eastlink.ca"
+      mmsc="http://mmss.mobi.eastlink.ca"
+      mmsproxy="10.232.12.49"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Internet"
+      mcc="302"
+      mnc="270"
+      apn="wisp.mobi.eastlink.ca"
+      type="default,supl"
+  />
 
   <apn carrier="Fido Internet"
       mcc="302"
@@ -3708,13 +3610,6 @@
       mmsproxy="205.151.11.13"
       mmsport="80"
       type="default,supl,mms"
-  />
-
-  <apn carrier="Fido Tethering"
-      mcc="302"
-      mnc="370"
-      apn="isp.fido.apn"
-      type="dun"
   />
 
   <apn carrier="Internet"
@@ -3762,13 +3657,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="MTS -Tethering"
-      mcc="302"
-      mnc="660"
-      apn="internet.mts"
-      type="dun"
-  />
-
   <apn carrier="MTS-Roaming"
       mcc="302"
       mnc="370"
@@ -3777,13 +3665,6 @@
       mmsproxy="209.4.229.90"
       mmsport="9401"
       type="default,supl,mms"
-  />
-
-  <apn carrier="Rogers Tethering"
-      mcc="302"
-      mnc="720"
-      apn="isp.apn"
-      type="dun"
   />
 
   <apn carrier="Rogers"
@@ -13469,16 +13350,6 @@
       mmsc="http://mms.ctimovil.com.uy"
       authtype="1"
       type="mms"
-  />
-
-  <apn carrier="Orangeweb" 
-      apn="orangeweb" 
-      user="orange" 
-      password="orange" 
-      mcc="340" 
-      mnc="01" 
-      authtype="1" 
-      type="dun" 
   />
 
   <apn carrier="Orange Armenia MMS" 
