@@ -6160,6 +6160,13 @@
       type="default,supl"
   />
 
+   <apn carrier="MTXC"
+      mcc="270"
+      mnc="02"
+      apn="internet"
+      type="default,supl"
+  />
+
   <apn carrier="Tango WAP"
       mcc="270"
       mnc="77"
