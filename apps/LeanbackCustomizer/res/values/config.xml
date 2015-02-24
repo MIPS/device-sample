@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="partner_show_live_tv_on_start_up">true</bool>
+    <bool name="show_physical_tuners_separately">true</bool>
 
     <!-- DO NOT TRANSLATE -->
     <string name="partner_app_sorting_mode" translatable="false">fixed</string>
