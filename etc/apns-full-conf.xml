@@ -24347,6 +24347,16 @@
       type="default,supl"
   />
 
+  <apn carrier="sp-mode"
+      mcc="440"
+      mnc="10"
+      apn="spmode.ne.jp"
+      user=""
+      server=""
+      password=""
+      type="default,supl"
+  />
+
   <apn carrier="mopera U"
       mcc="440"
       mnc="10"
@@ -24368,51 +24378,7 @@
       type="default,supl"
   />
 
-  <apn carrier="b-mobile 3G・4G 1GB/Fair"
-      mcc="440"
-      mnc="10"
-      apn="bmobile.ne.jp"
-      user="bmobile@fr"
-      server=""
-      password="bmobile"
-      authtype="3"
-      type="default,supl"
-  />
-
-  <apn carrier="b-mobile 3G・4G U300"
-      mcc="440"
-      mnc="10"
-      apn="bmobile.ne.jp"
-      user="bmobile@u300"
-      server=""
-      password="bmobile"
-      authtype="3"
-      type="default,supl"
-  />
-
-  <apn carrier="b-mobile スマホ電話"
-      mcc="440"
-      mnc="10"
-      apn="bmobile.ne.jp"
-      user="bmobile@spd"
-      server=""
-      password="bmobile"
-      authtype="3"
-      type="default,supl"
-  />
-
-  <apn carrier="b-mobile 4G カメレオンSIM"
-      mcc="440"
-      mnc="10"
-      apn="bmobile.ne.jp"
-      user="bmobile@cm"
-      server=""
-      password="bmobile"
-      authtype="3"
-      type="default,supl"
-  />
-
-  <apn carrier="IIJmio (LTE端末)"
+  <apn carrier="IIJmio"
       mcc="440"
       mnc="10"
       apn="iijmio.jp"
@@ -24421,17 +24387,6 @@
       password="iij"
       authtype="3"
       protocol="IPV4V6"
-      type="default,supl"
-  />
-
-  <apn carrier="IIJmio (3G端末)"
-      mcc="440"
-      mnc="10"
-      apn="iijmio.jp"
-      user="mio@iij"
-      server=""
-      password="iij"
-      authtype="3"
       type="default,supl"
   />
 
@@ -24455,8 +24410,33 @@
       authtype="2"
   />
 
+  <apn carrier="SoftBank 3G"
+      mcc="440"
+      mnc="20"
+      apn="plus.softbank"
+      user="plus"
+      password="softbank"
+      mmsproxy="andmms.plusacs.ne.jp"
+      mmsport="8080"
+      mmsc="http://mms-s"
+      type="default,mms,supl,hipri"
+      authtype="2"
+  />
 
-  <apn carrier="Application"
+  <apn carrier="SoftBank 4G"
+      mcc="440"
+      mnc="20"
+      apn="plus.4g"
+      user="plus"
+      password="4g"
+      mmsproxy="andmms.plusacs.ne.jp"
+      mmsport="8080"
+      mmsc="http://mms-s"
+      type="default,mms,supl,hipri"
+      authtype="2"
+  />
+
+  <apn carrier="Y! mobile"
       mcc="440"
       mnc="20"
       apn="plus.acs.jp"
