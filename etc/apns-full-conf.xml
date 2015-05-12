@@ -8948,6 +8948,19 @@
       roaming_protocol="IP"
   />
 
+  <apn carrier="Project Fi - T"
+       mcc="310"
+       mnc="260"
+       apn="h2g2"
+       user="none"
+       server="*"
+       password="none"
+       mmsc="http://mmsc1.g-mms.com/mms/wapenc"
+       protocol="IPV4V6"
+       mvno_match_data="31026097"
+       mvno_type="IMSI"
+  />
+
   <apn carrier="MetroPCS"
       mcc="310"
       mnc="260"
