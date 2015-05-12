@@ -8428,6 +8428,7 @@
       mnc="120"
       apn="otasn"
       type="fota,ia"
+      protocol="IPV4V6"
       user="null"
       password="null"
   />
