@@ -8962,6 +8962,14 @@
        mvno_type="IMSI"
   />
 
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="260"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+  />
+
   <apn carrier="MetroPCS"
       mcc="310"
       mnc="260"
