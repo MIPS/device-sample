@@ -14942,7 +14942,7 @@
       type="mms"
   />
 
-  <apn carrier='Nextel Localización'
+  <apn carrier='Localización'
       mcc='334'
       mnc='090'
       apn='location.nexteldata.com.mx'
@@ -14952,7 +14952,7 @@
       port='7275'
   />
 
-  <apn carrier='Nextel MMS'
+  <apn carrier='MMS'
       mcc='334'
       mnc='090'
       apn='mms.nexteldata.com.mx'
@@ -14963,7 +14963,7 @@
       type='mms'
   />
 
-  <apn carrier='Nextel Modem'
+  <apn carrier='Internet'
       mcc='334'
       mnc='090'
       apn='modem.nexteldata.com.mx'
@@ -14971,7 +14971,7 @@
       type='dun'
   />
 
-  <apn carrier='Nextel Navegación'
+  <apn carrier='Navegación'
       mcc='334'
       mnc='090'
       apn='wap.nexteldata.com.mx'
