@@ -1729,6 +1729,15 @@
       type="mms"
   />
 
+  <apn carrier="Happy Internet"
+      mcc="214"
+      mnc="03"
+      apn="internettph"
+      type="default,supl"
+      mvno_type="spn"
+      mvno_match_data="Happy"
+  />
+
   <apn carrier="Yoigo Internet"
       mcc="214"
       mnc="04"
