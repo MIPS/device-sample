@@ -6551,8 +6551,6 @@
       user="simobil"
       password="internet"
       authtype="1"
-      proxy="80.95.224.17"
-      port="9201"
       type="default,supl"
   />
 
