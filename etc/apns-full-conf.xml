@@ -6965,8 +6965,8 @@
       mmsport="9201"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      mvno_match_data="2C"
-      mvno_type="gid"
+      mvno_type="spn"
+      mvno_match_data="MTS"
   />
 
   <apn carrier="MTS Tethering"
@@ -6976,8 +6976,8 @@
       type="dun"
       protocol="IPV4V6"
       roaming_protocol="IP"
-      mvno_type="gid"
-      mvno_match_data="2C"
+      mvno_type="spn"
+      mvno_match_data="MTS"
   />
 
   <apn carrier="chatr"
