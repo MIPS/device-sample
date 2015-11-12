@@ -1700,6 +1700,31 @@
       mvno_match_data="Happy"
   />
 
+  <apn carrier="RACC INTERNET"
+      mcc="214"
+      mnc="03"
+      apn="internet.racc.net"
+      user="CLIENTERACC"
+      password="RACC"
+      type="default,supl"
+      mvno_type="spn"
+      mvno_match_data="RACC"
+  />
+
+  <apn carrier="RACC MMS"
+      mcc="214"
+      mnc="03"
+      apn="mms.racc.net"
+      user="MMS"
+      password="RACC"
+      mmsc="http://mms.racc.net"
+      mmsproxy="172.16.18.74"
+      mmsport="8080"
+      mvno_type="spn"
+      mvno_match_data="RACC"
+      type="mms"
+  />
+
   <apn carrier="Yoigo Internet"
       mcc="214"
       mnc="04"
