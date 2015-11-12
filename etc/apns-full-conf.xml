@@ -2097,6 +2097,21 @@
       type="default,supl"
   />
 
+  <apn carrier="Tuenti"
+      mcc="214"
+      mnc="32"
+      apn="tuenti.com"
+      user="tuenti"
+      password="tuenti"
+      authtype="3"
+      mmsc="http://tuenti.com"
+      mmsproxy="10.138.255.43"
+      mmsport="8080"
+      type="default,mms,supl"
+      mvno_type="spn"
+      mvno_match_data="Tuenti"
+  />
+
   <apn carrier="Telenor MMS"
       mcc="216"
       mnc="01"
