@@ -1741,6 +1741,7 @@
       type="default,supl"
       mvno_type="spn"
       mvno_match_data="MASMovil"
+  />
 
   <apn carrier="Ibercom Internet"
       mcc="214"
