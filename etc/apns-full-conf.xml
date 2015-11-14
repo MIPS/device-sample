@@ -1741,6 +1741,14 @@
       type="default,supl"
       mvno_type="spn"
       mvno_match_data="MASMovil"
+
+  <apn carrier="Ibercom Internet"
+      mcc="214"
+      mnc="03"
+      apn="ibercominternet"
+      type="default,supl"
+      mvno_type="spn"
+      mvno_match_data="Ibercom"
   />
 
   <apn carrier="Yoigo Internet"
