@@ -9515,6 +9515,15 @@
       roaming_protocol="IPV4V6"
   />
 
+  <apn carrier="AGMS Global"
+      mcc="310"
+      mnc="380"
+      apn="agms.nl.gmm"
+      type="default"
+      mvno_type="gid"
+      mvno_match_data="50"
+  />
+
   <apn carrier="Celloneet MMS"
       mcc="310"
       mnc="390"
