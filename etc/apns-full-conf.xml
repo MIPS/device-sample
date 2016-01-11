@@ -1734,6 +1734,15 @@
       mvno_match_data="CABLE movil"
    />
 
+  <apn carrier="MASMovil Internet"
+      mcc="214"
+      mnc="03"
+      apn="internetmas"
+      type="default,supl"
+      mvno_type="spn"
+      mvno_match_data="MASMovil"
+  />
+
   <apn carrier="Yoigo Internet"
       mcc="214"
       mnc="04"
