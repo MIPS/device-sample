@@ -1514,6 +1514,14 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="mobiledata"
+      mcc="208"
+      mnc="22"
+      apn="mobiledata"
+      mmsc="http://mms"
+      type="default,supl,mms"
+  />
+
   <apn carrier="Virgin mobile"
       mcc="208"
       mnc="23"
@@ -1557,6 +1565,7 @@
       mvno_match_data="4E"
       mvno_type="gid"
   />
+
 
   <apn carrier="Internet móvil"
       mcc="214"
@@ -31593,5 +31602,13 @@
       proxy="10.150.0.115"
       port="8080"
       type="default"
+  />
+
+
+  <apn carrier="mobiledata"
+      mcc="901"
+      mnc="37"
+      apn="mobiledata"
+      type="default,supl"
   />
 </apns>
