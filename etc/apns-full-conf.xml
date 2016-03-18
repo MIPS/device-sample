@@ -965,6 +965,29 @@
       type="default,supl"
   />
 
+  <apn carrier="netgprs.com"
+      mcc="206"
+      mnc="10"
+      apn="netgprs.com"
+      user="tsl"
+      password="tsl"
+      type="default,supl"
+      mvno_match_data="BE-Transatel"
+      mvno_type="spn"
+   />
+
+
+ <apn carrier="netgprs.com"
+      mcc="206"
+      mnc="10"
+      apn="netgprs.com"
+      user="tsl"
+      password="tsl"
+      type="default,supl"
+      mvno_match_data="BB00"
+      mvno_type="gid"
+  />
+
   <apn carrier="BASE WAP"
       mcc="206"
       mnc="20"
@@ -1520,6 +1543,17 @@
       apn="mobiledata"
       mmsc="http://mms"
       type="default,supl,mms"
+  />
+
+  <apn carrier="netgprs.com"
+      mcc="208"
+      mnc="22"
+      apn="netgprs.com"
+      user="tsl"
+      password="tsl"
+      type="default,supl"
+      mvno_match_data="FR-Transatel"
+      mvno_type="spn"
   />
 
   <apn carrier="Virgin mobile"
@@ -3104,6 +3138,28 @@
       mmsproxy="192.168.151.2"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="netgprs.com"
+      mcc="228"
+      mnc="03"
+      apn="netgprs.com"
+      user="tsl"
+      password="tsl"
+      type="default,supl"
+      mvno_match_data="CH-Transatel"
+      mvno_type="spn"
+   />
+
+   <apn carrier="netgprs.com"
+      mcc="228"
+      mnc="03"
+      apn="netgprs.com"
+      user="tsl"
+      password="tsl"
+      type="default,supl"
+      mvno_match_data="BB00"
+      mvno_type="gid"
   />
 
   <apn carrier="T-Mobile CZ"
@@ -6242,6 +6298,28 @@
       mmsproxy="212.66.75.3"
       mmsport="8080"
       type="mms"
+  />
+
+   <apn carrier="netgprs.com"
+      mcc="270"
+      mnc="77"
+      apn="netgprs.com"
+      user="tsl"
+      password="tsl"
+      type="default,supl"
+      mvno_match_data="BB00"
+      mvno_type="gid"
+  />
+
+  <apn carrier="netgprs.com"
+      mcc="270"
+      mnc="77"
+      apn="netgprs.com"
+      user="tsl"
+      password="tsl"
+      type="default,supl"
+      mvno_match_data="LU-Transatel"
+      mvno_type="spn"
   />
 
   <apn carrier="Orange"
