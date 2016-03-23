@@ -24231,28 +24231,21 @@
       type="mms"
   />
 
-  <apn carrier="Mozaic Mob"
+  <apn carrier="Internet"
       mcc="427"
       mnc="01"
-      apn="gprs.qtel"
-      user="gprs"
-      password="gprs"
-      authtype="1"
-      proxy="10.23.8.3"
-      port="8080"
+      apn="data"
       type="default,supl"
+      authtype="1"
   />
 
-  <apn carrier="Qtel MMS"
+  <apn carrier="MMS"
       mcc="427"
       mnc="01"
-      apn="mms.qtel"
-      user="10"
-      password="11"
-      authtype="1"
+      apn="data"
+      mmsc="http://mmsr.ooredoomms.qa"
       mmsproxy="10.23.8.3"
       mmsport="8080"
-      mmsc="http://mmsr.qtelmms.qa"
       type="mms"
   />
 
