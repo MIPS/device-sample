@@ -8819,6 +8819,16 @@
       mvno_type="gid"
   />
 
+  <apn carrier="IMS"
+      mcc="310"
+      mnc="170"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+
   <apn carrier="DataConnect"
       mcc="310"
       mnc="170"
@@ -9779,6 +9789,15 @@
       roaming_protocol="IPV4V6"
   />
 
+  <apn carrier="IMS"
+      mcc="310"
+      mnc="410"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="ATT Phone"
       mcc="310"
       mnc="410"
@@ -10206,6 +10225,28 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
+  />
+
+  <apn carrier="ATT Nextgenphone"
+      mcc="310"
+      mnc="560"
+      apn="nxtgenphone"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
+      type="default,mms,supl,fota,hipri"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mtu="1410"
+  />
+
+  <apn carrier="IMS"
+      mcc="310"
+      mnc="560"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="DobsonMMS"
