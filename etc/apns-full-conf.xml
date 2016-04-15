@@ -23329,6 +23329,13 @@
       type="default,supl"
   />
 
+  <apn carrier="Ooredoo Internet"
+      mcc="414"
+      mnc="05"
+      apn="Internet"
+      type="default,supl"
+  />
+
   <apn carrier="Alfa Internet"
       mcc="415"
       mnc="01"
@@ -23570,18 +23577,18 @@
       type="mms"
   />
 
-  <apn carrier="Asiacell GPRS"
+  <apn carrier="Asiacell Internet"
       mcc="418"
       mnc="05"
       apn="net.asiacell.com"
-      type="default,supl"
+      type="default"
   />
 
-  <apn carrier="Asiacell MMS"
+  <apn carrier="MMS"
       mcc="418"
       mnc="05"
       apn="wap.asiacell.com"
-      mmsc="http://192.168.107.10:19090/was"
+      mmsc="http://mvas.asiacell.com/uportal"
       mmsproxy="192.168.107.50"
       mmsport="8080"
       type="mms"
@@ -23731,23 +23738,23 @@
       type="mms"
   />
 
-  <apn carrier="Internet Action"
+  <apn carrier="Ooredoo Action"
       mcc="419"
       mnc="03"
-      apn="action.wataniya.com"
-      authtype="0"
-      type="default,supl"
+      apn="action.ooredoo.com"
+      authtype="1"
+      type="default"
   />
 
-  <apn carrier="Wataniya MMS"
+  <apn carrier="Ooredoo MMS"
       mcc="419"
       mnc="03"
-      apn="mms.wataniya.com"
-      mmsc="http://action.wataniya.com"
+      apn="mms.ooredoo.com"
+      mmsc="http://action.ooredoo.com"
       mmsproxy="194.126.53.64"
       mmsport="8080"
-      authtype="0"
-      type="mms"
+      authtype="1"
+      type="default"
   />
 
   <apn carrier="VIVA - KW"
@@ -25932,11 +25939,21 @@
       type="default,supl"
   />
 
-  <apn carrier="Wataniya"
+  <apn carrier="OoredooData"
       mcc="472"
       mnc="02"
-      apn="default"
-      type="default,supl"
+      apn="OoredooData"
+      type="default"
+  />
+
+  <apn carrier="MMS"
+      mcc="472"
+      mnc="02"
+      apn="OoredooData"
+      mmsc="http://mms.ooredoo.mv"
+      mmsproxy="172.24.10.20"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="DiGi Internet"
@@ -26334,23 +26351,11 @@
       mmsport="8080"
   />
 
-  <apn carrier="Indosat-SNS"
+  <apn carrier="indosatgprs"
       mcc="510"
       mnc="01"
       apn="indosatgprs"
       authtype="1"
-      type="default,supl"
-  />
-
-  <apn carrier="Indosat GPRS"
-      mcc="510"
-      mnc="01"
-      apn="indosatgprs"
-      user="indosat"
-      password="indosat"
-      authtype="1"
-      proxy="10.19.19.19"
-      port="8080"
       type="default,supl"
   />
 
@@ -27455,34 +27460,20 @@
       type="mms"
   />
 
-  <apn carrier="nedjmawap"
-      mcc="603"
-      mnc="03"
-      apn="nedjmawap"
-      proxy="192.168.52.2"
-      port="3128"
-      user="wap"
-      password="wap"
-      authtype="1"
-      type="default,supl"
-  />
-
-  <apn carrier="Nedjma.dz"
+  <apn carrier="Ooredoo internet"
       mcc="603"
       mnc="03"
       apn="internet"
-      user="nedjma"
-      password="nedjma"
       type="default,supl"
+      authtype="1"
   />
 
-  <apn carrier="nedjmamms"
+  <apn carrier="Ooredoo mms"
       mcc="603"
       mnc="03"
-      apn="nedjmamms"
+      apn="ooredoomms"
       user="mms"
       password="mms"
-      authtype="1"
       mmsc="http://10.10.111.1"
       mmsproxy="192.168.52.3"
       mmsport="3128"
@@ -27623,22 +27614,18 @@
       type="mms"
   />
 
-  <apn carrier="Tunisiana-Internet"
+  <apn carrier="Ooredoo TN Internet"
       mcc="605"
       mnc="03"
-      apn="internet.tunisiana.com"
-      authtype="1"
-      type="default,supl"
+      apn="internet.ooredoo.tn"
+      type="default"
   />
 
-  <apn carrier="MMS Tunisiana"
+  <apn carrier="Ooredoo TN MMS"
       mcc="605"
       mnc="03"
-      apn="mms.tunisiana.com"
-      user="mms"
-      password="mms"
-      authtype="1"
-      mmsc="http://mmsc.tunisiana.com"
+      apn="mms.ooredoo.tn"
+      mmsc="http://mmsc.ooredoo.tn"
       mmsproxy="10.3.2.100"
       mmsport="80"
       type="mms"
