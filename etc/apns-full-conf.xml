@@ -14681,6 +14681,28 @@
       roaming_protocol="IP"
   />
 
+  <apn carrier="Cleartalk"
+      mcc="311"
+      mnc="750"
+      apn="CdmaNai"
+      authtype="3"
+      type="default,mms,supl,dun"
+      mmsc="http://mms.cleartalk.us/cleartalk/mms.php"
+      protocol="IPV4V6"
+      bearer_bitmask="6"
+  />
+  <apn carrier="ClearTalk LTE"
+      mcc="311"
+      mnc="750"
+      apn="home.netamerica.com"
+      type="default,mms,supl,dun"
+      bearer_bitmask="14"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.cleartalk.us/cleartalk/mms.php"
+      mtu="1428"
+    />
+
   <apn carrier="MobileNation"
       mcc="311"
       mnc="910"
