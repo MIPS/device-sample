@@ -5563,6 +5563,13 @@
       type="mms"
   />
 
+  <apn carrier="VODA internet"
+      mcc="250"
+      mnc="28"
+      apn="vodalte.ru"
+      type="default,supl"
+  />
+
   <apn carrier="Beeline Internet"
       mcc="250"
       mnc="99"
