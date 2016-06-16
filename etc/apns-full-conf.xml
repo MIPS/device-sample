@@ -6905,6 +6905,40 @@
       mvno_type="gid"
   />
 
+  <apn carrier="TELUS"
+      mcc="302"
+      mnc="220"
+      apn="sp.telus.com"
+      type="default,mms,supl"
+      mmsc="http://aliasredirect.net/proxy/mmsc"
+      mmsproxy="74.49.0.18"
+      mmsport="80"
+      mvno_match_data="55"
+      mvno_type="gid"
+  />
+
+  <apn carrier="TELUS Tether"
+      mcc="302"
+      mnc="220"
+      apn="isp.telus.com"
+      server="*"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="54"
+      mvno_type="gid"
+  />
+
+  <apn carrier="TELUS Tether"
+      mcc="302"
+      mnc="220"
+      apn="isp.telus.com"
+      server="*"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="55"
+      mvno_type="gid"
+  />
+
   <apn carrier="Koodo"
       mcc="302"
       mnc="220"
@@ -6914,6 +6948,40 @@
       mmsproxy="74.49.0.18"
       mmsport="80"
       mvno_match_data="4B"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Koodo"
+      mcc="302"
+      mnc="220"
+      apn="sp.koodo.com"
+      type="default,mms,supl"
+      mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
+      mmsproxy="74.49.0.18"
+      mmsport="80"
+      mvno_match_data="4F"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Koodo Tether"
+      mcc="302"
+      mnc="220"
+      apn="sp.koodo.com"
+      server="*"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="4B"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Koodo Tether"
+      mcc="302"
+      mnc="220"
+      apn="sp.koodo.com"
+      server="*"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="4F"
       mvno_type="gid"
   />
 
@@ -6980,6 +7048,40 @@
       mvno_type="gid"
   />
 
+  <apn carrier="TELUS"
+      mcc="302"
+      mnc="221"
+      apn="sp.telus.com"
+      type="default,mms,supl"
+      mmsc="http://aliasredirect.net/proxy/mmsc"
+      mmsproxy="74.49.0.18"
+      mmsport="80"
+      mvno_match_data="55"
+      mvno_type="gid"
+  />
+
+  <apn carrier="TELUS Tether"
+      mcc="302"
+      mnc="221"
+      apn="isp.telus.com"
+      server="*"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="54"
+      mvno_type="gid"
+  />
+
+  <apn carrier="TELUS Tether"
+      mcc="302"
+      mnc="221"
+      apn="isp.telus.com"
+      server="*"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="55"
+      mvno_type="gid"
+  />
+
   <apn carrier="Koodo"
       mcc="302"
       mnc="221"
@@ -6989,6 +7091,40 @@
       mmsproxy="74.49.0.18"
       mmsport="80"
       mvno_match_data="4B"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Koodo"
+      mcc="302"
+      mnc="221"
+      apn="sp.koodo.com"
+      type="default,mms,supl"
+      mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
+      mmsproxy="74.49.0.18"
+      mmsport="80"
+      mvno_match_data="4F"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Koodo Tether"
+      mcc="302"
+      mnc="221"
+      apn="sp.koodo.com"
+      server="*"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="4B"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Koodo Tether"
+      mcc="302"
+      mnc="221"
+      apn="sp.koodo.com"
+      server="*"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="4F"
       mvno_type="gid"
   />
 
