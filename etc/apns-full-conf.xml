@@ -26405,6 +26405,13 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="Truphone"
+      mcc="505"
+      mnc="38"
+      apn="truphone.com"
+      type="default,supl"
+  />
+
   <apn carrier="Telstra MMS"
       mcc="505"
       mnc="71"
