@@ -9574,7 +9574,7 @@
        type="mms"
        protocol="IPV6"
        roaming_protocol="IPV6"
-       bearer_bitmask="18"
+       bearer="18"
   />
 
   <apn carrier="T-Mobile IMS"
@@ -9595,7 +9595,7 @@
        modem_cognitive="true"
        protocol="IPV6"
        roaming_protocol="IPV6"
-       bearer_bitmask="18"
+       bearer="18"
   />
 
   <apn carrier="Project Fi - T"
