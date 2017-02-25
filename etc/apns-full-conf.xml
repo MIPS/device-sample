@@ -380,7 +380,7 @@
       mcc="204"
       mnc="04"
       apn="truphone.com"
-      type="default,supl"
+      type="default,supl,dun"
       mvno_match_data="204043914"
       mvno_type="imsi"
   />
@@ -389,7 +389,7 @@
       mcc="204"
       mnc="04"
       apn="truphone.com"
-      type="default,supl"
+      type="default,supl,dun"
       mvno_match_data="20404794"
       mvno_type="imsi"
   />
@@ -1200,6 +1200,15 @@
       apn="websfr"
       protocol="IP"
       type="dun"
+  />
+
+  <apn carrier="Truphone"
+       mcc="208"
+       mnc="09"
+       apn="truphone.com"
+       type="default,supl,dun"
+       mvno_match_data="208090022"
+       mvno_type="imsi"
   />
 
   <apn carrier="SFR webphone"
