@@ -380,7 +380,8 @@
       mcc="204"
       mnc="04"
       apn="truphone.com"
-      type="default,supl,dun"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
       mvno_match_data="204043914"
       mvno_type="imsi"
   />
@@ -389,7 +390,8 @@
       mcc="204"
       mnc="04"
       apn="truphone.com"
-      type="default,supl,dun"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
       mvno_match_data="20404794"
       mvno_type="imsi"
   />
@@ -1206,7 +1208,8 @@
        mcc="208"
        mnc="09"
        apn="truphone.com"
-       type="default,supl,dun"
+       mmsc="http://mmsc.truphone.com:1981/mm1"
+       type="default,supl,mms,dun"
        mvno_match_data="208090022"
        mvno_type="imsi"
   />
@@ -2182,7 +2185,8 @@
       mcc="214"
       mnc="27"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
   />
 
   <apn carrier="Tuenti"
@@ -4093,7 +4097,8 @@
       mcc="234"
       mnc="25"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
   />
 
   <apn carrier="Jersey Telecom"
@@ -6025,7 +6030,8 @@
       mcc="260"
       mnc="33"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
   />
 
   <apn carrier="Rebtel"
@@ -6245,7 +6251,8 @@
       mcc="262"
       mnc="42"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
   />
 
   <apn carrier="Vodafone Net2"
@@ -9741,7 +9748,8 @@
       mcc="310"
       mnc="30"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
   />
 
 
@@ -9749,7 +9757,8 @@
       mcc="310"
       mnc="300"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
   />
 
   <apn carrier="T-Mobile US 310"
@@ -25453,7 +25462,8 @@
       mcc="454"
       mnc="08"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
   />
 
   <apn carrier="one2free"
@@ -26417,7 +26427,8 @@
       mcc="505"
       mnc="02"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
       mvno_match_data="50502100"
       mvno_type="imsi"
   />
@@ -26519,7 +26530,8 @@
       mcc="505"
       mnc="38"
       apn="truphone.com"
-      type="default,supl"
+      mmsc="http://mmsc.truphone.com:1981/mm1"
+      type="default,supl,mms,dun"
   />
 
   <apn carrier="Telstra MMS"
