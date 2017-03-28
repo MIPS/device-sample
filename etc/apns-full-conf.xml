@@ -32046,17 +32046,17 @@
       type="default"
   />
 
-  <apn carrier="EMnify"
-      mcc="901"
-      mnc="43"
-      apn="em"
-      type="default"
-  />
-
   <apn carrier="mobiledata"
       mcc="901"
       mnc="37"
       apn="mobiledata"
       type="default,supl"
+  />
+
+  <apn carrier="EMnify"
+      mcc="901"
+      mnc="43"
+      apn="em"
+      type="default"
   />
 </apns>
