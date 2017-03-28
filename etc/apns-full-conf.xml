@@ -6927,6 +6927,31 @@
       type="mms"
   />
 
+  <apn carrier="EMnify"
+      mcc="295"
+      mnc="05"
+      apn="em"
+      mvno_match_data="EMnify"
+      mvno_type="spn"
+      type="default"
+  />
+
+  <apn carrier="EMnify"
+      mcc="295"
+      mnc="09"
+      apn="em"
+      type="default"
+  />
+
+  <apn carrier="BICS"
+      mcc="295"
+      mnc="09"
+      apn="bicsapn"
+      mvno_match_data="BICS"
+      mvno_type="spn"
+      type="default"
+  />
+
   <apn carrier="T-Mobile MMS"
       mcc="297"
       mnc="02"
@@ -27137,6 +27162,15 @@
       type="mms"
   />
 
+  <apn carrier="EMnify"
+      mcc="537"
+      mnc="03"
+      apn="em"
+      mvno_match_data="EMnify"
+      mvno_type="spn"
+      type="default"
+  />
+
   <apn carrier="U-Call"
       mcc="539"
       mnc="01"
@@ -31781,6 +31815,12 @@
       type="default"
   />
 
+  <apn carrier="EMnify"
+      mcc="901"
+      mnc="43"
+      apn="em"
+      type="default"
+  />
 
   <apn carrier="mobiledata"
       mcc="901"
