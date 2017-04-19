@@ -15511,11 +15511,9 @@
   <apn carrier="Orange World Caraïbe"
       mcc="340"
       mnc="01"
-      apn="orangewap"
+      apn="orangeweb"
       user="orange"
-      password="wap"
-      proxy="10.0.0.10"
-      port="8082"
+      password="orange"
       type="default,supl"
   />
 
@@ -31750,15 +31748,6 @@
       apn="internet.orange.co.bw"
       proxy="10.0.0.226"
       port="8080"
-      type="default"
-  />
-
-  <apn carrier="Orangeweb"
-      mcc="340"
-      mnc="01"
-      apn="orangeweb"
-      user="orange"
-      password="orange"
       type="default"
   />
 
