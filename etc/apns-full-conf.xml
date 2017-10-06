@@ -32050,4 +32050,30 @@
       apn="em"
       type="default"
   />
+  <apn carrier="Sberbank-Telecom Internet"
+      mcc="250"
+      mnc="050"
+      apn="internet.sberbank-tele.com"
+      user=""
+      password=""
+      type="default,supl"
+  />
+  <apn carrier="Sberbank-Telecom MMS"
+      mcc="250"
+      mnc="050"
+      apn="mms.sberbank-tele.com"
+      user=""
+      password=""
+      mmsc="http://mmsc"
+      mmsproxy="10.77.36.100"
+      mmsport="8080"
+      type="mms"
+  />
+  <apn carrier="Sberbank-Telecom IMS"
+      mcc="250"
+      mnc="050"
+      apn="ims.sberbank-tele.com"
+      type="ims"
+      protocol="IPV4V6"
+  />
 </apns>
