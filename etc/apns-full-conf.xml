@@ -1530,7 +1530,8 @@
       mcc="208"
       mnc="15"
       apn="free"
-      type="default,supl"
+      mmsc="http://mms.free.fr"
+      type="default,supl,mms"
   />
 
   <apn carrier="Free MMS"
@@ -1539,6 +1540,26 @@
       mmsc="http://mms.free.fr"
       apn="mmsfree"
       type="mms"
+  />
+
+  <apn carrier="Free Re Int"
+      mcc="208"
+      mnc="15"
+      apn="free"
+      mmsc="http://mms.free.re"
+      type="default,supl,mms"
+      mvno_match_data="F2330002"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Iliad Int"
+      mcc="208"
+      mnc="15"
+      apn="iliad"
+      mmsc="http://mms.iliad-italia.it"
+      type="default,supl,mms"
+      mvno_match_data="F003"
+      mvno_type="gid"
   />
 
   <apn carrier="Legos"
@@ -2895,6 +2916,14 @@
       type="default,supl,agps,fota,dun"
       mvno_type="spn"
       mvno_match_data="ERG"
+  />
+
+  <apn carrier="Iliad Int"
+      mcc="222"
+      mnc="50"
+      apn="iliad"
+      mmsc="http://mms.iliad-italia.it"
+      type="default,supl,mms"
   />
 
   <apn carrier="WIND WEB"
@@ -29269,6 +29298,14 @@
       mmsproxy="10.4.85.50"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Free Re"
+      mcc="647"
+      mnc="03"
+      apn="free.re"
+      mmsc="http://mms.free.re"
+      type="default,supl,mms"
   />
 
   <apn carrier="Full Internet SRR"
