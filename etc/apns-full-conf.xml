@@ -1545,7 +1545,7 @@
   <apn carrier="Free Re Int"
       mcc="208"
       mnc="15"
-      apn="free"
+      apn="free.re"
       mmsc="http://mms.free.re"
       type="default,supl,mms"
       mvno_match_data="F2330002"
@@ -2918,7 +2918,7 @@
       mvno_match_data="ERG"
   />
 
-  <apn carrier="Iliad Int"
+  <apn carrier="Iliad"
       mcc="222"
       mnc="50"
       apn="iliad"
