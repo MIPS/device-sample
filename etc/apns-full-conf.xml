@@ -1037,6 +1037,13 @@
       type="mms"
   />
 
+  <apn carrier="BICS Internet"
+      mcc="206"
+      mnc="28"
+      apn="bicsapn"
+      type="default,supl"
+  />
+
   <apn carrier="Orange World"
       mcc="208"
       mnc="01"
@@ -32105,6 +32112,14 @@
       apn="em"
       type="default"
   />
+
+  <apn carrier="BICS Internet"
+      mcc="901"
+      mnc="58"
+      apn="bicsapn"
+      type="default,supl"
+  />
+
   <apn carrier="Sberbank-Telecom Internet"
       mcc="250"
       mnc="050"
