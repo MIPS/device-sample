@@ -2549,14 +2549,12 @@
       type="mms"
   />
 
-  <apn carrier="Telenor WAP"
+  <apn carrier="Telenor internet"
       mcc="220"
       mnc="01"
       apn="internet"
       user="telenor"
       password="gprs"
-      proxy="217.65.192.33"
-      port="8080"
       authtype="1"
       type="default,supl"
   />
@@ -4531,18 +4529,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Telenor SE"
-      mcc="240"
-      mnc="04"
-      apn="services.telenor.se"
-      mmsc="http://mms"
-      mmsproxy="172.30.253.241"
-      mmsport="8799"
-      type="default,supl,mms"
-      mvno_match_data="Telenor SE"
-      mvno_type="spn"
-  />
-
   <apn carrier="Tele2 Internet"
       mcc="240"
       mnc="05"
@@ -4627,23 +4613,19 @@
       mvno_type="spn"
   />
 
-  <apn carrier="Telenor Mobilsurf"
-      mcc="240"
-      mnc="06"
-      apn="services.telenor.se"
-      proxy="173.30.253.241"
-      port="8799"
-      type="default,supl"
+  <apn carrier="Internet"
+       mcc="240"
+       mnc="06"
+       apn="internet"
+       type="default,supl"
   />
 
-  <apn carrier="Telenor MMS"
-      mcc="240"
-      mnc="06"
-      apn="services.telenor.se"
-      mmsc="http://mms"
-      mmsproxy="173.30.253.241"
-      mmsport="8799"
-      type="mms"
+  <apn carrier="MMS"
+       mcc="240"
+       mnc="06"
+       apn="mms"
+       mmsc="http://mms.media"
+       type="mms"
   />
 
   <apn carrier="Tele2 Internet"
@@ -4704,14 +4686,21 @@
       mvno_type="imsi"
   />
 
-  <apn carrier="Telenor SE"
+  <apn carrier="Telenor Mobilsurf"
       mcc="240"
       mnc="08"
       apn="services.telenor.se"
+      type="default,supl"
+  />
+
+  <apn carrier="Telenor MMS"
+      mcc="240"
+      mnc="08"
+      apn="mms"
       mmsc="http://mms"
       mmsproxy="172.30.253.241"
       mmsport="8799"
-      type="default,supl,mms"
+      type="mms"
   />
 
   <apn carrier="Com4"
@@ -4796,18 +4785,6 @@
       mmsport="8080"
       type="mms"
       mvno_match_data="Tele2"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Telenor SE"
-      mcc="240"
-      mnc="24"
-      apn="services.telenor.se"
-      mmsc="http://mms"
-      mmsproxy="172.30.253.241"
-      mmsport="8799"
-      type="default,supl,mms"
-      mvno_match_data="Telenor SE"
       mvno_type="spn"
   />
 
@@ -6730,9 +6707,7 @@
       mcc="284"
       mnc="05"
       apn="telenorbg"
-      authtype="1"
-      proxy="192.168.88.11"
-      port="8004"
+      authtype="0"
       type="default,supl"
   />
 
