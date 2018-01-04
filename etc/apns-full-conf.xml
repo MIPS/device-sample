@@ -32121,4 +32121,11 @@
       type="ims"
       protocol="IPV4V6"
   />
+
+  <apn carrier="Unleashed"
+      mcc="206"
+      mnc="30"
+      apn="web.be"
+      type="default,supl"
+  />
 </apns>
