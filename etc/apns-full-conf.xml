@@ -1657,6 +1657,27 @@
       mvno_type="gid"
   />
 
+  <apn carrier="Coriolis"
+      mcc="208"
+      mnc="27"
+      apn="coriolis"
+      type="default,supl"
+      mvno_match_data="Coriolis"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Coriolis MMS"
+      mcc="208"
+      mnc="27"
+      apn="mmscoriolis"
+      mmsc="http://mms.coriolis.fr"
+      mmsproxy="10.12.0.1"
+      mmsport="9028"
+      type="mms"
+      mvno_match_data="Coriolis"
+      mvno_type="spn"
+  />
+
 
   <apn carrier="Internet móvil"
       mcc="214"
