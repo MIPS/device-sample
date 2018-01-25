@@ -32095,6 +32095,15 @@
       type="default"
   />
 
+  <apn carrier="CIOT Vodafone"
+      mcc="901"
+      mnc="28"
+      apn="ciot.vodafone.com"
+      user="vodafone"
+      password="vodafone"
+      type="default"
+  />
+
   <apn carrier="mobiledata"
       mcc="901"
       mnc="37"
