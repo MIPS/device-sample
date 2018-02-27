@@ -30209,10 +30209,10 @@
       type="mms"
   />
 
-  <apn carrier="Internet Fulmovil"
+  <apn carrier="Internet Fullmovil"
       mcc="712"
       mnc="20"
-      apn="datos.fulmovil.cr"
+      apn="datos.fullmovil.cr"
       type="default,supl"
   />
 
