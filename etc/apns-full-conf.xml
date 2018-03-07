@@ -5755,6 +5755,15 @@
       type="default,supl"
   />
 
+  <apn carrier="Tinkoff Mobile"
+      mcc="250"
+      mnc="62"
+      apn="m.tinkoff"
+      user=""
+      password=""
+      type="default,supl"
+  />
+
   <apn carrier="Beeline Internet"
       mcc="250"
       mnc="99"
