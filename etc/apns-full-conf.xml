@@ -4280,6 +4280,8 @@
       mmsproxy="mmsproxy.3.dk"
       mmsport="8799"
       type="default,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Telia SurfPort"
@@ -4437,6 +4439,8 @@
       mmsproxy="mmsproxy.tre.se"
       mmsport="8799"
       type="default,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="3"
@@ -4447,6 +4451,8 @@
       mmsproxy="mmsproxy.tre.se"
       mmsport="8799"
       type="default,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Tele2 Internet"
