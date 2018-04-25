@@ -1069,6 +1069,15 @@
       type="dun"
   />
 
+  <apn carrier="Be Aliv"
+      mcc="208"
+      mnc="09"
+      apn="pda.newcomobile.com"
+      type="default,supl"
+      mvno_match_data="208090021"
+      mvno_type="imsi"
+  />
+
   <apn carrier="Truphone"
        mcc="208"
        mnc="09"
@@ -16114,6 +16123,20 @@
       mmsc="http://mms.digicelgroup.com"
       authtype="1"
       type="mms"
+  />
+
+  <apn carrier="Be Aliv"
+      mcc="364"
+      mnc="49"
+      apn="pda.newcomobile.com"
+      type="default,supl"
+  />
+
+  <apn carrier="Be Aliv IMS"
+      mcc="364"
+      mnc="49"
+      apn="ims"
+      type="ims"
   />
 
   <apn carrier="Lime Internet Postpaid"
